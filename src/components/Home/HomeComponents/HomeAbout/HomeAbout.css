@@ -1,0 +1,21 @@
+.home-about-div {
+  width: 100%;
+  height: 150px;
+  margin-top: -50px;
+}
+
+.home-about-container {
+  width: 25%;
+  height: 100px;
+  text-align: center;
+  margin: 0 20px;
+  padding: 10px;
+  color: white;
+}
+
+.color1 {
+  background-color: #1cc7c1;
+}
+.color2 {
+  background-color: #3a4256;
+}
