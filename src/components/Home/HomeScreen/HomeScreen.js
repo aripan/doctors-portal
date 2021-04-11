@@ -5,6 +5,7 @@ import HomeServices from "../HomeComponents/HomeServices/HomeServices";
 import HomeBlog from "../HomeComponents/HomeBlog/HomeBlog";
 import HomeTestimonial from "../HomeComponents/HomeTestimonial/HomeTestimonial";
 import HomeDoctors from "../HomeComponents/HomeDoctors/HomeDoctors";
+import HomeContact from "../HomeComponents/HomeContact/HomeContact";
 
 const HomeScreen = () => {
   return (
@@ -15,6 +16,7 @@ const HomeScreen = () => {
       <HomeTestimonial></HomeTestimonial>
       <HomeBlog></HomeBlog>
       <HomeDoctors></HomeDoctors>
+      <HomeContact></HomeContact>
     </div>
   );
 };
