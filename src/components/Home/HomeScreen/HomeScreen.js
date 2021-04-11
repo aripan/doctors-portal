@@ -6,6 +6,7 @@ import HomeBlog from "../HomeComponents/HomeBlog/HomeBlog";
 import HomeTestimonial from "../HomeComponents/HomeTestimonial/HomeTestimonial";
 import HomeDoctors from "../HomeComponents/HomeDoctors/HomeDoctors";
 import HomeContact from "../HomeComponents/HomeContact/HomeContact";
+import Footer from "../../shared/Footer";
 
 const HomeScreen = () => {
   return (
@@ -17,6 +18,7 @@ const HomeScreen = () => {
       <HomeBlog></HomeBlog>
       <HomeDoctors></HomeDoctors>
       <HomeContact></HomeContact>
+      <Footer></Footer>
     </div>
   );
 };
