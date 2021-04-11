@@ -1,0 +1,37 @@
+.home-header {
+  position: relative;
+  height: 600px;
+  background: url("../../../../images/chairBg.png");
+  background-size: cover;
+}
+
+.home-header::after {
+  content: "";
+  position: absolute;
+  z-index: -10;
+  top: 0;
+  left: 75%;
+  bottom: 0;
+  right: 0;
+  background: #3a4256;
+}
+
+.home-main-container {
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  color: #3a4256;
+}
+
+button {
+  border: none;
+  background-color: #14d1cc;
+  padding: 10px 15px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
