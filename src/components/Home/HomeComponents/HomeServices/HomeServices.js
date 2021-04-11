@@ -40,8 +40,8 @@ const HomeServices = () => {
         }}
       >
         {homeServiceData.map((data, index) => (
-          <div className="col-md-4">
-            <HomeServiceOption key={index} data={data}></HomeServiceOption>
+          <div className="col-md-4" key={index}>
+            <HomeServiceOption data={data}></HomeServiceOption>
           </div>
         ))}
       </div>

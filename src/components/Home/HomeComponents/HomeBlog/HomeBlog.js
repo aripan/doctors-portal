@@ -5,19 +5,16 @@ import HomeBlogPublished from "./HomeBlogPublished";
 
 const HomeBlog = () => {
   return (
-    <div>
+    <div style={{ height: "500px" }}>
       <div className="text-center">
         <h5 style={{ color: "#14d1cc" }}>OUR BLOG</h5>
         <h2 style={{ color: "#3a4256" }}>From Our Blog News</h2>
       </div>
 
-      <div
-        className="d-flex justify-content-center align-items-center"
-        style={{ height: "400px" }}
-      >
-        <div className="row" style={{ margin: "30px 40px" }}>
+      <div className="container px-4 mt-5" style={{ height: "400px" }}>
+        <div className="row gx-4">
           <div
-            className="col-md-3"
+            className="col-md-3 shadow rounded"
             style={{ backgroundColor: "#1CC7C1", color: "white" }}
           >
             <HomeBlogNew></HomeBlogNew>
